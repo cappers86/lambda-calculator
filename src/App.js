@@ -21,9 +21,11 @@ function App() {
   return (
     <div className="container">
       <Logo />
-      <NumberButton /> 
-      <SpecialButton />
       <Display />
+      <SpecialButton />
+      <NumberButton /> 
+      
+      
 
       <OperatorButton />
       <div className="App">
